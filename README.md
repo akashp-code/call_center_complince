@@ -69,23 +69,6 @@ React + Vite Dashboard (Vercel)
 
 ---
 
-## Team
-
-**Team Name:** Code Makers  
-**Domain:** AI/ML  
-**College:** UVCE, Bengaluru
-
-| Member | Branch |
-|---|---|---|
-| Akash P | ECE |
-| Mithun S | ECE | 
-| Ashith Vinay Raj | ECE | 
-| Abhishek D Moolya | ECE | 
-
----
-
----
-
 ## Getting Started
 
 ### Prerequisites
@@ -125,3 +108,23 @@ npm run dev
 | `BACKEND_URL` | FastAPI server URL |
 
 ---
+
+
+# Team Details
+
+## Team Information
+
+**Team Name:** CallSync
+**Domain:** Artificial Intelligence & Machine Learning (AI/ML)
+**Institution:** University Visvesvaraya College of Engineering (UVCE), Bengaluru
+
+## Team Members
+
+| No. | Name              | Branch                                          |
+| --- | ----------------- | ----------------------------------------------- |
+| 1   | Akash P           | Electronics and Communication Engineering (ECE) |
+| 2   | Mithun S          | Electronics and Communication Engineering (ECE) |
+| 3   | Ashith Vinay Raj  | Electronics and Communication Engineering (ECE) |
+| 4   | Abhishek D Moolya | Electronics and Communication Engineering (ECE) |
+
+
