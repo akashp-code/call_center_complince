@@ -30,9 +30,11 @@ async def health_check():
 
 @router.get("/debug-env", include_in_schema=False)
 async def debug_env():
-    groq_key = os.environ.get("GROQ_API_KEY", "")
-    openai_key = os.environ.get("OPENAI_API_KEY", "")
+    from app.core.config import get_settings
+
+    settings = get_settings()
+
     return {
-        "GROQ_API_KEY": f"{'SET' if len(groq_key) > 10 else 'MISSING'} (length={len(groq_key)})",
-        "OPENAI_API_KEY": f"{'SET' if len(openai_key) > 10 else 'MISSING'} (length={len(openai_key)})",
+        "GROQ_API_KEY": f"{'SET' if len(settings.GROQ_API_KEY) > 10 else 'MISSING'} (length={len(settings.GROQ_API_KEY)})",
+        "OPENAI_API_KEY": f"{'SET' if len(settings.OPENAI_API_KEY) > 10 else 'MISSING'} (length={len(settings.OPENAI_API_KEY)})",
     }
