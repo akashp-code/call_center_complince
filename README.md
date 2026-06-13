@@ -75,41 +75,14 @@ React + Vite Dashboard (Vercel)
 **Domain:** AI/ML  
 **College:** UVCE, Bengaluru
 
-| Member | Branch | Role |
+| Member | Branch |
 |---|---|---|
-| Akash P | ECE | Frontend & Visualization |
-| Mithun S | ECE | Backend & Cloud Infrastructure |
-| Ashith Vinay Raj | ECE | LLM Analytics & Intelligence Engine |
-| Abhishek D Moolya | ECE | AI & Speech Processing |
+| Akash P | ECE |
+| Mithun S | ECE | 
+| Ashith Vinay Raj | ECE | 
+| Abhishek D Moolya | ECE | 
 
 ---
-
-## Module Breakdown
-
-### Member 1 — AI & Speech Processing (Abhishek)
-- Audio preprocessing and upload pipeline
-- Groq Whisper STT integration
-- Language detection
-- Transcript generation and display module
-
-### Member 2 — LLM Analytics Engine (Ashith)
-- Prompt engineering for Llama 3.3 70B
-- Summary generation
-- Customer intent and objection detection
-- Churn prediction logic
-- Action item generation
-
-### Member 3 — Backend & Cloud Infrastructure (Mithun)
-- FastAPI server and REST API development
-- Environment configuration and security
-- Render deployment
-- API integration with frontend
-
-### Member 4 — Frontend & Visualization (Akash)
-- React/Vite frontend and UI/UX
-- Sentiment timeline and agent scorecard charts
-- Compliance dashboard
-- Vercel deployment and integration testing
 
 ---
 
