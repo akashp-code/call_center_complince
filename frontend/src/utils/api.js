@@ -1,4 +1,5 @@
-const API_BASE = import.meta.env.VITE_API_BASE || 'http://localhost:8000'
+const API_BASE =
+  import.meta.env.VITE_API_BASE || "http://127.0.0.1:8000"
 const API_KEY = import.meta.env.VITE_API_KEY || 'sk_intel_987654321'
 
 export async function analyzeCall({ audioBase64, language, audioFormat }) {
